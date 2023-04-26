@@ -1,0 +1,58 @@
+.skill-row {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.sblock {
+    width: 20rem;
+    height: 20rem;
+    background: rgb(79, 69, 69);
+    margin-right: 5rem;
+}
+
+.sblock:hover {
+    border: 1px solid orange;
+}
+
+.sblock h2 {
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 30rem;
+}
+
+.html-css-block {
+    position: static;
+}
+
+.html-css-block img {
+    position: absolute;
+    bottom: 5rem;
+    width: 5rem;
+    height: 5rem;
+    left: 16rem;
+}
+
+.js-block {
+    position: static;
+}
+
+.js-block img {
+    position: absolute;
+    bottom: 4.2rem;
+    width: 5rem;
+    height: 5rem;
+    left: 41rem;
+}
+
+.graphics-block {
+    position: static;
+}
+
+.graphics-block img {
+    position: absolute;
+    bottom: 4.2rem;
+    width: 5rem;
+    height: 5rem;
+    left: 66rem;
+}
